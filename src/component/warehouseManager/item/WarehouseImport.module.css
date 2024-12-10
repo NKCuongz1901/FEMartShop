@@ -1,0 +1,129 @@
+ .formContainer {
+    width: 95%; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input,
+  .select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input:focus,
+  .select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .confirmContainer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9f9e9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmButton {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirmButton:hover {
+    background-color: #218838;
+  }
+  
+  .cancelButton {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .cancelButton:hover {
+    background-color: #c82333;
+  }
+  .warehouseList {
+    margin-top: 20px; 
+}
+
+.warehouseList h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px; 
+}
+
+.warehouseTable {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.warehouseTable th, .warehouseTable td {
+    border: 1px solid #ddd; 
+    padding: 12px; 
+    text-align: left;
+}
+
+.warehouseTable th {
+    background-color: #f2f2f2; 
+    font-weight: bold;
+}
+
+.pagination {
+    margin-top: 20px; 
+}
+
+.pagination button {
+    margin-right: 5px; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    background-color: #28a745;
+}
+
+.pagination button:hover {
+    background-color: #007bff;
+}

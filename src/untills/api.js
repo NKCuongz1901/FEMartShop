@@ -9,7 +9,9 @@ const config = {
 };
 
 // const API_URL = "http://172.28.117.95:5000/api";
-const API_URL = "http://localhost:5000/api";
+// const API_URL = "http://localhost:5000/api";
+const API_URL = "https://bemartshop.onrender.com/";
+
 // đăng nhập / đăng ký / xác thực người dùng
 
 //đăng kí
@@ -147,7 +149,7 @@ export const getProductsByCategory = async (categoryId) => {
   } catch (error) {
     throw new Error(
       error.response?.data.message ||
-        "Lỗi khi lấy danh sách sản phẩm theo danh mục"
+      "Lỗi khi lấy danh sách sản phẩm theo danh mục"
     );
   }
 };
